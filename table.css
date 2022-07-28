@@ -1,0 +1,27 @@
+table {
+  border: 3px solid white;
+  border-collapse: separate;
+  margin: 2rem;
+  background-color: rgba(1, 35, 35, 0.961);
+}
+
+body {
+  color: rgba(1, 32, 1, 0.801);
+}
+
+td {
+  padding: 30px;
+}
+
+thead {
+  background-color: rgba(127, 255, 212, 0.75);
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+tbody {
+  font-size: 15px;
+  font-weight: 700;
+  background-color: rgba(48, 182, 137, 0.623);
+}

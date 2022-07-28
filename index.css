@@ -1,0 +1,97 @@
+.imgs {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.space {
+  margin: 18px 10px 0 0;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.block {
+  background-color: white;
+  margin: 40px 0 40px 0;
+  height: 70px;
+}
+
+.search {
+  height: 25px;
+  width: 25px;
+  stroke: rgb(231, 230, 230);
+  color: rgb(247, 249, 250);
+  margin: 20px;
+}
+
+body {
+  margin: 20px;
+  background-color: rgb(242, 239, 235);
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color1,
+.color2,
+.color3,
+.color4 {
+  height: 40vh;
+  width: 52vh;
+  background-color: white;
+}
+
+.photo {
+  height: 30vh;
+  width: 30vh;
+  align-items: center;
+  display: block;
+  margin: 20px 50px -20px 50px;
+}
+
+.anime {
+  animation-name: para;
+  animation-duration: 5s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes para {
+  25% {
+    margin-right: 25%;
+    width: 15%;
+  }
+
+  50% {
+    font-size: 1.2rem;
+    margin-right: 25%;
+    width: 20%;
+    color: red;
+  }
+
+  75% {
+    color: rgb(43, 226, 214);
+    margin-left: 30%;
+    width: 50%;
+  }
+}
+
+span {
+  text-transform: capitalize;
+  font-weight: 800;
+  margin: 5px;
+}
